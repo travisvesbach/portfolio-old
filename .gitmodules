@@ -1,0 +1,6 @@
+[submodule "etch-a-sketch"]
+	path = etch-a-sketch
+	url = https://github.com/travisvesbach/etch-a-sketch
+[submodule "pomodoro_timer"]
+	path = pomodoro_timer
+	url = https://github.com/travisvesbach/pomodoro_timer
