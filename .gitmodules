@@ -7,3 +7,6 @@
 [submodule "responsive_design"]
 	path = responsive_design
 	url = https://github.com/travisvesbach/responsive_design
+[submodule "bootstrap_newsweek"]
+	path = bootstrap_newsweek
+	url = https://github.com/travisvesbach/bootstrap_newsweek
