@@ -6,6 +6,11 @@ body {
 	font-size: 20px;
 }
 
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 .header {
 	position: fixed;
 	top: 0;
@@ -18,7 +23,7 @@ body {
 }
 
 .header h2 {
-	display: inline-block;
+	display: none;
 	margin-left: 20px;
 	color: black;
 }
@@ -43,11 +48,13 @@ body {
 }
 
 .sidebar {
-	position: fixed;
+	position: relative;
+	display: block;
+	text-align: center;
 	top: 100px;
-	display: inline-block;
 	margin-left: 15px;
-	width: 200px;
+	margin-bottom: 50px;
+	width: 100%;
 }
 
 .sidebar li {
@@ -73,8 +80,8 @@ body {
 	display: inline-block;
 	position: relative;
 	top: 80px;
-	margin-left: 240px;
-	width: 800px;
+	width: 100%;
+	padding: 0 20px;
 }
 
 .main-container a {
@@ -84,6 +91,7 @@ body {
 	background-color: #493a26;
 	padding: 5px 10px;
 	color: white;
+	white-space: nowrap;
 }
 
 .main-container a:hover {
@@ -91,23 +99,22 @@ body {
 }
 
 .portfolio-container {
-	display: inline-block;
 	position: relative;
 	top: 80px;
-	margin-left: 240px;
-	width: auto;
+	width: 100%;
 }
 
 .portfolio-container h3 {
 	border-bottom: solid 1px #c3c6cc;
-	width: 800px;
+	width: 100%;
 }
 
 .project {
-	width: 400px;
+	width: 100%;
 	display: inline-block;
 	vertical-align: top;
 	padding: 0px 10px;
+	margin: 0;
 
 }
 
@@ -116,37 +123,26 @@ body {
 	border: solid 1px #493a26;
 	border-radius: 5px;
 	background-color: #493a26;
-	padding: 5px 10px;
+	padding: 5px 20px;
 	color: white;
+	white-space: nowrap;
 }
 
 .project a:hover {
 	background-color: #382c1d
 }
 
-/*.project ul {
-	list-style: none;
-}
-
-.project li {
-	border-radius: 4px;
-	display: inline-block;
-	padding: 3px 5px;
-	margin: 5px;
-	background-color: black;
-} */
-
 .project img {
-	width: 375px;
+	width: 100%;
 }
 
 .resume-container {
 	display: inline-block;
 	position: relative;
 	top: 80px;
-	margin-left: 240px;
-	width: auto;
+	width: 75%;
 	margin-bottom: 70px;
+	padding: 0px 20px;
 }
 
 .resume-container h2 {
@@ -156,16 +152,6 @@ body {
 .resume-container h3 {
 	margin: 25px 0px 5px 0px;
 }
-
-/*.resume-container a {
-	font-style: italic;
-	color: white;
-	text-decoration: none;
-}
-
-.resume-container a:hover {
-	text-decoration: underline;
-} */
 
 .resume-container a {
 	text-decoration: none;
@@ -184,4 +170,34 @@ body {
 	position: relative;
 	margin-left: 25px;
 	margin-bottom: 50px;
+}
+
+@media (min-width: 480px) {
+	.header h2 {
+		display: inline-block;
+	}
+}
+
+@media (min-width: 768px) {
+	.sidebar {
+		width: 25%;
+		float: left;
+		position: fixed;
+		text-align: left;
+	}
+	.main-container, .portfolio-container, .resume-container {
+		width: 75%;
+		float: left;
+		margin-left: 240px;
+	}
+	.project {
+		width: 80%;
+	}
+}
+
+@media (min-width: 1000px) {
+	.project {
+		width: 49%;
+		padding: 5px 10px;
+	}
 }
