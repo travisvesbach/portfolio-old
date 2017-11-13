@@ -10,3 +10,6 @@
 [submodule "bootstrap_newsweek"]
 	path = bootstrap_newsweek
 	url = https://github.com/travisvesbach/bootstrap_newsweek
+[submodule "javascript_calculator"]
+	path = javascript_calculator
+	url = https://github.com/travisvesbach/javascript_calculator
