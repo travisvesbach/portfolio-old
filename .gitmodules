@@ -13,3 +13,6 @@
 [submodule "javascript_calculator"]
 	path = javascript_calculator
 	url = https://github.com/travisvesbach/javascript_calculator
+[submodule "jquery_dom_manipulation"]
+	path = jquery_dom_manipulation
+	url = https://github.com/travisvesbach/jquery_dom_manipulation
