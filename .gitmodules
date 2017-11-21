@@ -16,3 +16,6 @@
 [submodule "jquery_dom_manipulation"]
 	path = jquery_dom_manipulation
 	url = https://github.com/travisvesbach/jquery_dom_manipulation
+[submodule "snake"]
+	path = snake
+	url = https://github.com/travisvesbach/snake
