@@ -80,7 +80,9 @@ body {
 	display: inline-block;
 	position: relative;
 	top: 80px;
-	width: 100%;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
 	padding: 0 20px;
 }
 
@@ -101,14 +103,15 @@ body {
 .portfolio-container {
 	position: relative;
 	top: 80px;
-	width: 100%;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
 	position: relative;
 }
 
 .portfolio-container h3 {
 	border-bottom: solid 1px #c3c6cc;
 	width: 100%;
-	border-collapse: collapse;
 }
 
 .portfolio-tabs {
@@ -124,8 +127,7 @@ body {
 	border-bottom: 0px;
 	border-radius: 5px 5px 0px 0px;
 	margin: 0px 10px 0px 0px;
-	
-
+	cursor: pointer;
 }
 
 .rails-content, .ruby-content, .javascript-content {
@@ -144,7 +146,6 @@ body {
 	vertical-align: top;
 	padding: 0px 10px;
 	margin: 0;
-
 }
 
 .project a {
@@ -169,7 +170,9 @@ body {
 	display: inline-block;
 	position: relative;
 	top: 80px;
-	width: 75%;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
 	margin-bottom: 70px;
 	padding: 0px 20px;
 }
@@ -217,7 +220,7 @@ body {
 	.main-container, .portfolio-container, .resume-container {
 		width: 75%;
 		float: left;
-		margin-left: 240px;
+		margin: auto auto auto 240px;
 	}
 	.project {
 		width: 80%;
@@ -230,4 +233,3 @@ body {
 		padding: 5px 10px;
 	}
 }
-
