@@ -102,11 +102,40 @@ body {
 	position: relative;
 	top: 80px;
 	width: 100%;
+	position: relative;
 }
 
 .portfolio-container h3 {
 	border-bottom: solid 1px #c3c6cc;
 	width: 100%;
+	border-collapse: collapse;
+}
+
+.portfolio-tabs {
+	padding: 0;
+	margin-bottom: 0px;
+}
+
+.portfolio-tabs li {
+	list-style: none;
+	display: inline-block;
+	padding: 5px 10px;
+	border: solid 1px #c3c6cc;
+	border-bottom: 0px;
+	border-radius: 5px 5px 0px 0px;
+	margin: 0px 10px 0px 0px;
+	
+
+}
+
+.rails-content, .ruby-content, .javascript-content {
+	display: none;
+	border: 1px solid #c3c6cc;
+	border-radius: 0 20px 20px 20px;
+}
+
+.selected-tab {
+	background-color: #382c1d;
 }
 
 .project {
@@ -201,3 +230,4 @@ body {
 		padding: 5px 10px;
 	}
 }
+
