@@ -19,3 +19,6 @@
 [submodule "snake"]
 	path = snake
 	url = https://github.com/travisvesbach/snake
+[submodule "image_carousel"]
+	path = image_carousel
+	url = https://github.com/travisvesbach/image_carousel
