@@ -22,3 +22,6 @@
 [submodule "image_carousel"]
 	path = image_carousel
 	url = https://github.com/travisvesbach/image_carousel
+[submodule "javascript_tictactoe"]
+	path = javascript_tictactoe
+	url = https://github.com/travisvesbach/javascript_tictactoe
