@@ -25,3 +25,6 @@
 [submodule "javascript_tictactoe"]
 	path = javascript_tictactoe
 	url = https://github.com/travisvesbach/javascript_tictactoe
+[submodule "dice-roller"]
+	path = dice-roller
+	url = https://github.com/travisvesbach/dice-roller.git
